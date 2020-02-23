@@ -1,5 +1,5 @@
 function basicTeenager(abc) {
-  if (abc >= 13 && abc <= 19){
+  if (${abc} >= 13 && ${abc} <= 19){
     return "You are a teenager!"
   }
 
@@ -37,3 +37,5 @@ function switchAge(age) {
       return "You have an age"
   }
 }
+
+basicTeenager(15)
